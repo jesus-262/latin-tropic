@@ -1,0 +1,37 @@
+.Section5{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    height: 450px;
+    padding-top: 95%;
+   
+    
+}
+.Section5-contenedor1{
+    width: 100%;
+    height: 300px;
+}
+.Section5-contenedor1 img{
+    width: 100%;
+    height: 200%;
+}
+.Section5-contenedor2 {
+    width: 40%;
+    height: 150%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.Section5-contenedor2 img{
+    width: 100%;
+    height: 100%;
+    margin-top: -80%;
+}
+.contenedor-boton5{
+    margin-top: -80%;
+}

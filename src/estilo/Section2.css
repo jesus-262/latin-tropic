@@ -1,0 +1,118 @@
+.Section2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    height: 450px;
+    padding-top: 30%;
+}
+.sombra1 {
+    float:left;
+    background-color:#cea95d;
+    width: 60%;
+    height: 160%;
+    margin:-65% 0 0 5px
+  }
+  .sombra1 img {
+
+    position:relative;
+   
+    background-color:#fff;
+    margin:140px 0px -20% 70px;
+    height: 100%;
+    width: 120%;
+    transition: transform .2s; /* Animation */
+  }
+  .sombra1 img:hover{
+    transform: scale(1.05);
+  }
+.contenedor1{
+width: 60%;
+float:left;
+height: 100%;
+}
+.contenedor2{
+    width: 40%;
+    float:right;
+    height: 100%;
+   
+   
+}
+.sombra2 {
+    float:right;
+    background-color:white;
+    width: 60%;
+    height: 100%;
+    margin:-40% 50px 50px 50px;
+
+  }
+  /*margin:24px 0px -30% 60px; con la tercera opcion mueves la altura*/
+  .sombra2 img {
+    
+    position:relative;
+    background-color:#fff;
+     
+    z-index: 2;
+    margin:-250px 30px 100% -200px;
+    height: 120%;
+    width: 120%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: white;
+  }
+
+  .rosado1{
+      position:relative;
+      margin-left: 30%;
+      margin-top: -35%;
+      width: 70%;
+      height: 160%;
+      background-color: #cea95d;
+  }
+  .contenedor-botonn{
+    display: flex;
+    height: 60px;
+    width: 250px;
+    margin-left: -35%;
+    margin-top: -320px;
+    opacity: 1;
+}
+.Sectionparte2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+.contenedorparte1{
+    width: 30%;
+  
+    height: 100%;
+}
+.contenedorparte2{
+    width: 35%;
+    z-index: 2;
+    height: 100%;
+}
+.contenedorparte3{
+    width: 35%;
+    
+    height: 500px;
+}
+.contenedorparte3 img{
+    height: 100%;
+}
+
+.rosado2{
+    position:relative;
+    margin-left: 0%;
+    margin-top: 0%;
+    width: 500px;
+    height: 300px;
+    background-color: #cea95d;
+}
